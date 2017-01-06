@@ -1,0 +1,108 @@
+.cage{
+	display: flex;
+	font-size: 0;
+	margin: 0;
+	padding: 35px 10% 0 10%;
+	text-align: left;
+	width: 100%;
+}
+.grid{
+	color: currentColor;
+}
+.left-hand{
+	display: block;
+	font-size: 1rem;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	vertical-align: top;
+	position: relative;
+	width: 38%;
+}
+.left-hand img{
+	width: 100%;
+}
+.post {
+	color: white;
+	font-size: 38px;
+	font-weight: bold;
+	margin-bottom: 18px;
+}
+.topic{
+	margin: 0;
+	padding: 15px 20px;
+}
+span{
+	color: white;
+}
+.hover\/c\:white:hover {
+    color: #FFF;
+}
+.bg\:black\.5, .hover\/bg\:black\.5:hover {
+    background-color: rgba(17,17,17,.5);
+}
+
+.right-hand{
+	display: flex;
+	margin: 0 1.2rem;
+	width: 38%;
+	text-align: left;
+	vertical-align: top;
+	position: relative;
+}
+.house{
+	font-size: 1rem;
+	padding: 0 1.2rem;
+	width: 45%;
+}
+.house img{
+	width: 100%;
+}
+.remodeling{
+	background-color: #FFF;
+}
+.house-ex{
+	margin: 0 0.4rem;
+	padding: .4rem;
+}
+.ex-topic{
+	margin-bottom: .6944rem!important;
+	font-size: 20px;
+	font-weight: bold;
+}
+.face{
+	font-size: 1rem;
+	padding: 0 0.4rem;
+	width: 45%;
+}
+.faceimg{
+	overflow: hidden;
+	height: 181.47px;
+	background-position-x: center;
+	background-position-y: center;
+    background-size: cover;
+}
+.face img{
+	height: 100%
+}
+.face-ex{
+	margin: 0 0.4rem;
+	padding: .4rem;
+}
+.face-topic{
+	margin-bottom: .6944rem!important;
+	font-size: 20px;
+	font-weight: bold;
+}
+.backgrd{
+	background-color: #FFF;
+	padding-bottom: 23.78px;
+}
+.f-w{
+	font-size: 17px;
+	font-weight: bold;
+}
+.f{
+	font-size: 13px;
+	font-weight: thin;
+}
