@@ -107,7 +107,6 @@ a{
 @media only screen and ( max-width: 1000px){
 	.cage{
 		display: block;
-    background-blend-mode: color-dodge;
 		margin: 0;
 		padding: 0;
 	}
@@ -127,15 +126,13 @@ a{
 	.right-hand{
 		width: 100%;
 		margin: 0;
-		padding: 0;
+		padding: 0 3%;
 	}
 	.house{
-		width: 100%
-		padding:0;
+		padding:1%;
 	}
 	.face{
-		width: 100%
-		padding:0;
+		padding:1%;
 	}
 	.remodeling img{
 		width: 50%;
@@ -164,15 +161,18 @@ a{
 	}
 }
 @media only screen and ( max-width: 700px){
-	.cage{
-		display: hidden;
-	}
 	.right-hand{
 		display: inline-block;
 		float: right;
+		padding: 0;
+	}
+	.house{
+		margin-left: 1.2rem;
+		padding: 0;
 	}
 	.face{
 		margin-left: 1.2rem;
+		padding: 0;
 	}
 	.remodeling{
 		width: 200%;
