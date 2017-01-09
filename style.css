@@ -2,7 +2,7 @@
 	display: flex;
 	font-size: 0;
 	margin: 0%;
-	padding: 35px 10% 0px 10%;
+	padding: 35px 11% 0px 11%;
 	text-align: left;
 	width: 100%;
 }
@@ -51,54 +51,52 @@ span{
     background-color: rgba(17,17,17,.5);
 }
 .right-hand{
-	display: flex;
+	display: inline-block;
 	margin: 0 1.2rem;
+	padding: 0;
 	width: 40%;
 	text-align: left;
-	vertical-align: top;
+	vertical-align: baseline;
 	position: relative;
 }
+.setting-size{
+	display: inline-flex;
+	margin: 0 -.4rem;
+	flex-flow: row wrap;
+	font-size: 0;
+	padding: 0;
+	text-align: left;
+}
 .house{
+	display: flex;
 	font-size: 1rem;
-	padding: 0 1.2rem;
+	margin: 0 0.4rem;
 	width: 45%;
+	line-height: 1.3;
+	box-sizing: border-box;
+	background-color: #FFF;
 }
 .house img{
 	width: 100%;
 }
-.remodeling{
-	background-color: #FFF;
-}
-.house-ex{
-	margin: 0 0.4rem;
-	padding: .4rem;
-}
-.ex-topic{
-	margin-bottom: .6944rem!important;
-	font-size: 20px;
-	color: #333;
-	font-weight: bold;
-}
-.face{
-	font-size: 1rem;
-	padding: 0 0rem;
-	width: 45%;
-}
-.face-ex{
-	margin: 0 0.4rem;
-	padding: .4rem;
-}
-.face-topic{
-	margin-bottom: .6944rem!important;
-	font-size: 20px;
-	color: #333;
-	font-weight: bold;
-}
 .backgrd{
-	background-color: #FFF;
+	width: 100%!important;
+	position: relative;
 }
-.face img{
-	width: 100%;
+
+
+.right-topic{
+	margin-bottom: .6944rem!important;
+	font-size: 20px;
+	color: #333;
+	font-weight: bold;
+	padding: 0 16px;
+}
+.exp{
+	font-size: 15px;
+	color: #333;
+	font-weight: 300;
+	padding: 0 16px 16px 16px;
 }
 a{
 	text-decoration: none;
@@ -106,6 +104,7 @@ a{
 }
 @media only screen and ( max-width: 1000px){
 	.cage{
+		background-image: none!important;
 		display: block;
 		margin: 0;
 		padding: 0;
@@ -129,31 +128,18 @@ a{
 		padding: 0 3%;
 	}
 	.house{
-		padding:1%;
-	}
-	.face{
-		padding:1%;
-	}
-	.remodeling img{
-		width: 50%;
-		height: 100%;
-	}
-	.backgrd img{
-		width: 50%;
-		height: 100%;
-	}
-	.remodeling{
-		display: inline-flex;
-		width: 100%;
+		padding:0;
+		margin: 1%;
 	}
 	.backgrd{
 		display: inline-flex;
 		width: 100%;
 	}
-	.ex-topic{
-		font-size: 15px;
+	.backgrd img{
+		width: 50%;
+		height: 100%;
 	}
-	.face-topic{
+	.right-topic{
 		font-size: 15px;
 	}
 	p{
@@ -168,28 +154,17 @@ a{
 	}
 	.house{
 		margin-left: 1.2rem;
+		width: 100%;
 		padding: 0;
-	}
-	.face{
-		margin-left: 1.2rem;
-		padding: 0;
-	}
-	.remodeling{
-		width: 200%;
 	}
 	.backgrd{
+		padding: 0.5% 0;
 		width: 200%;
 	}
-	.remodeling img{
-		width: 40%;
-	}
 	.backgrd img{
-		width: 40%;
+		width: 30%;
 	}
-	.ex-topic{
-		font-size: 18px;
-	}
-	.face-topic{
+	.right-topic{
 		font-size: 18px;
 	}
 }
