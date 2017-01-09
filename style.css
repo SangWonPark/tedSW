@@ -29,6 +29,14 @@
 	font-weight: bold;
 	margin-bottom: 18px;
 }
+.f-w{
+	font-size: 17px;
+	font-weight: bold;
+}
+.f{
+	font-size: 13px;
+	font-weight: thin;
+}
 .topic{
 	margin: 0;
 	padding: 15px 20px;
@@ -42,11 +50,10 @@ span{
 .bg\:black\.5, .hover\/bg\:black\.5:hover {
     background-color: rgba(17,17,17,.5);
 }
-
 .right-hand{
 	display: flex;
 	margin: 0 1.2rem;
-	width: 38%;
+	width: 40%;
 	text-align: left;
 	vertical-align: top;
 	position: relative;
@@ -69,26 +76,13 @@ span{
 .ex-topic{
 	margin-bottom: .6944rem!important;
 	font-size: 20px;
+	color: #333;
 	font-weight: bold;
 }
 .face{
 	font-size: 1rem;
-	padding: 0 0.4rem;
+	padding: 0 0rem;
 	width: 45%;
-}
-.faceimg{
-	overflow: hidden;
-	height: 181.47px;
-	background-position-x: center;
-	background-position-y: center;
-    background-size: cover;
-}
-.face img{
-	overflow: hidden;
-	height: 181.47px;
-	background-position-x: center;
-	background-position-y: center;
-    background-size: cover;
 }
 .face-ex{
 	margin: 0 0.4rem;
@@ -97,21 +91,105 @@ span{
 .face-topic{
 	margin-bottom: .6944rem!important;
 	font-size: 20px;
+	color: #333;
 	font-weight: bold;
 }
 .backgrd{
 	background-color: #FFF;
-	padding-bottom: 53.78px;
 }
-.f-w{
-	font-size: 17px;
-	font-weight: bold;
-}
-.f{
-	font-size: 13px;
-	font-weight: thin;
+.face img{
+	width: 100%;
 }
 a{
 	text-decoration: none;
 	color: black;
+}
+@media only screen and ( max-width: 1000px){
+	.cage{
+		display: block;
+    background-blend-mode: color-dodge;
+		margin: 0;
+		padding: 0;
+	}
+	.left-hand{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.post{
+		font-size: 30px;
+	}
+	.f-w{
+		font-size: 12px;
+	}
+	.f{
+		font-size: 11px;
+	}
+	.right-hand{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.house{
+		width: 100%
+		padding:0;
+	}
+	.face{
+		width: 100%
+		padding:0;
+	}
+	.remodeling img{
+		width: 50%;
+		height: 100%;
+	}
+	.backgrd img{
+		width: 50%;
+		height: 100%;
+	}
+	.remodeling{
+		display: inline-flex;
+		width: 100%;
+	}
+	.backgrd{
+		display: inline-flex;
+		width: 100%;
+	}
+	.ex-topic{
+		font-size: 15px;
+	}
+	.face-topic{
+		font-size: 15px;
+	}
+	p{
+		display: none;
+	}
+}
+@media only screen and ( max-width: 700px){
+	.cage{
+		display: hidden;
+	}
+	.right-hand{
+		display: inline-block;
+		float: right;
+	}
+	.face{
+		margin-left: 1.2rem;
+	}
+	.remodeling{
+		width: 200%;
+	}
+	.backgrd{
+		width: 200%;
+	}
+	.remodeling img{
+		width: 40%;
+	}
+	.backgrd img{
+		width: 40%;
+	}
+	.ex-topic{
+		font-size: 18px;
+	}
+	.face-topic{
+		font-size: 18px;
+	}
 }
